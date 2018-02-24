@@ -1,6 +1,6 @@
 ## Settings
 
-* Add **com.onesigal** nuget package
+* Add **com.onesignal** nuget package
 
 * AndroidManifest
 
