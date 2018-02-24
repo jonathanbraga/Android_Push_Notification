@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Com.OneSignal;
 
 namespace PushMessage
 {
@@ -13,6 +14,8 @@ namespace PushMessage
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+
+            OneSignal.Current.StartInit("d635f63a-ae68-4238-a594-4df25dcbbd86").EndInit();
         }
     }
 }
